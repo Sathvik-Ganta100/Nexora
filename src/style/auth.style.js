@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
   },
 
   title: {
-    color: "blue",
+    color: "#605DFF",
     fontSize: 50,
   }
 });
