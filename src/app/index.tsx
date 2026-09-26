@@ -1,17 +1,11 @@
-import { StyleSheet, Text, View } from "react-native";
+import { Text, View } from "react-native";
+
+import { styles } from "../style/auth.style";
 
 export default function Index() {
   return (
     <View style={styles.container}>
-      <Text>Home</Text>
+      <Text style={styles.title}>Home</Text>
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: "center",
-    justifyContent: "center",
-  },
-});
